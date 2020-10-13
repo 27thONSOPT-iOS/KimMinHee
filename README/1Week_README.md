@@ -1,7 +1,7 @@
 # 🐶 1주차 과제 도전
 
 ## 01 ) Present, Push, Pop 사용해보기
-  <img width="367" alt="View" src="https://user-images.githubusercontent.com/51286963/95858168-9e2e7680-0d97-11eb-8c68-a9ac7b4746cb.png">
+  <img width="400" alt="View" src="https://user-images.githubusercontent.com/51286963/95858168-9e2e7680-0d97-11eb-8c68-a9ac7b4746cb.png">
 
 1) MainViewController -> LoginViewController : Present
 2) LoginViewController -> MainViewController : Dismiss
@@ -9,8 +9,10 @@
 4) SignViewController -> LoginViewController : Navigation - Pop
 <br>
 <br>
+
 ## 02 ) 💪🏻 도전 과제
  - LoginViewController에서 MainViewController로 값 전달하기
+
     ``` swift
     @IBAction func LoginDidTab(_ sender: UIButton) {
         // "로그인" 버튼 클릭 시 event
@@ -23,6 +25,7 @@
         self.dismiss(animated: true, completion: nil)
     }
     ```
+
     : presentingViewController은 자신을 호출한 ViewController를 의미한다. 나를 호출한 뷰를 선언해주고 값을 전달한다.
 <br>
 <br>

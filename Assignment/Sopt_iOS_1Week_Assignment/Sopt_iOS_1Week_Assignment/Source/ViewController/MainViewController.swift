@@ -8,7 +8,7 @@
 import UIKit
 
 class MainViewController: UIViewController {
-
+    
     var part: String?
     var name: String?
     
@@ -23,11 +23,11 @@ class MainViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         // LoginViewController 다녀오면 실행
         // 받아온 값 넣어주기
-        if let sendPart = self.part {
+        if let sendPart = self.part,
+           let sendName = self.name {
             self.partLabel.text = sendPart
-        }
-        if let sendName = self.name {
             self.nameLabel.text = "\(sendName)님 안녕하세요~~☺️"
+            
         }
     }
     
@@ -41,8 +41,8 @@ class MainViewController: UIViewController {
         self.navigationController?.navigationBar.isHidden = false
         self.navigationController?.pushViewController(dvc, animated: true)
     }
-
-
+    
+    
 }
 extension MainViewController {
     func setView() {

@@ -8,7 +8,7 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-
+    
     @IBOutlet weak var partTextField: UITextField!
     @IBOutlet weak var nameTextField: UITextField!
     
@@ -37,7 +37,7 @@ class LoginViewController: UIViewController {
         self.navigationController?.pushViewController(dvc, animated: true)
         
     }
-
+    
 }
 
 extension LoginViewController {

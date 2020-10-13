@@ -11,11 +11,14 @@ class SignViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.navigationItem.title = "Sign Up"
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func SignButtonDidTap(_ sender: UIButton) {
+        self.navigationController?.popViewController(animated: true)
+    }
+    
     /*
     // MARK: - Navigation
 

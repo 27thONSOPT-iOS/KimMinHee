@@ -10,12 +10,26 @@ import UIKit
 class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
+        self.navigationItem.title = "Login"
+        self.navigationItem.setHidesBackButton(true, animated: true)
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func goHomeDidTab(_ sender: UIButton) {
+        self.navigationController?.navigationBar.isHidden = true
+        self.navigationController?.popViewController(animated: true)
+    }
+    
+    @IBAction func goSignDidTab(_ sender: UIButton) {
+        guard let dvc = self.storyboard?.instantiateViewController(identifier: "SignViewController") else {
+            return
+        }
+        self.navigationController?.pushViewController(dvc, animated: true)
+        
+    }
+    
     /*
     // MARK: - Navigation
 

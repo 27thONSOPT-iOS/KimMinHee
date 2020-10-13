@@ -20,13 +20,12 @@ class LoginViewController: UIViewController {
     @IBAction func LoginDidTab(_ sender: UIButton) {
         // "로그인" 버튼 클릭 시 event
         // 첫 화면으로 입력받은 값 넘겨주기
-        if let mainView = self.navigationController?.viewControllers[0] as? MainViewController {
+        if let mainView = self.presentingViewController as? MainViewController {
             mainView.part = self.partTextField.text
             mainView.name = self.nameTextField.text
         }
-        // 갈때는 다시 navigation bar 숨겨주기
-        self.navigationController?.navigationBar.isHidden = true
-        self.navigationController?.popViewController(animated: true)
+        
+        self.dismiss(animated: true, completion: nil)
     }
     
     @IBAction func goSignDidTab(_ sender: UIButton) {
@@ -43,7 +42,5 @@ class LoginViewController: UIViewController {
 extension LoginViewController {
     func setView() {
         self.navigationItem.title = "Login"
-        // navigation bar에 back 버튼은 숨겨주기
-        self.navigationItem.setHidesBackButton(true, animated: true)
     }
 }

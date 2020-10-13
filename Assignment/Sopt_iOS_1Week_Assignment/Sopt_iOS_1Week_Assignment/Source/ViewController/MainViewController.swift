@@ -34,21 +34,17 @@ class MainViewController: UIViewController {
     @IBAction func LoginButtonDidTap(_ sender: UIButton) {
         // "로그인 하러 가기" 버튼 클릭 시 event
         
-        guard let dvc = self.storyboard?.instantiateViewController(identifier: "LoginViewController") else {
+        guard let dvc = self.storyboard?.instantiateViewController(identifier: "NavigationControllerVC") else {
             return
         }
-        // navigation bar 되살려주기
-        self.navigationController?.navigationBar.isHidden = false
-        self.navigationController?.pushViewController(dvc, animated: true)
+        dvc.modalPresentationStyle = .fullScreen
+        self.present(dvc, animated: true, completion: nil)
     }
     
     
 }
 extension MainViewController {
     func setView() {
-        // navigation bar 숨겨두기~
-        self.navigationController?.navigationBar.isHidden = true
-        
         // 기본 값 설정
         self.partLabel.text = "iOS"
         self.nameLabel.text = "김민희님 안녕하세요~~😉"

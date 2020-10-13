@@ -102,7 +102,7 @@
                                             <constraint firstAttribute="width" constant="200" id="wXk-hc-Jdg"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                                     </textField>
                                 </subviews>
                             </stackView>
@@ -121,7 +121,7 @@
                                             <constraint firstAttribute="width" constant="200" id="ZaU-Aj-9C4"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                                     </textField>
                                 </subviews>
                             </stackView>
@@ -137,7 +137,7 @@
                                     <color key="titleColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="goHomeDidTab:" destination="jXM-Yd-YtF" eventType="touchUpInside" id="Kxx-Mp-FHm"/>
+                                    <action selector="LoginDidTab:" destination="jXM-Yd-YtF" eventType="touchUpInside" id="Kxx-Mp-FHm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Mm-CJ-vIG">
@@ -170,6 +170,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="agi-3A-tiK"/>
+                    <connections>
+                        <outlet property="nameTextField" destination="meX-QA-0VI" id="Lph-2Z-JzT"/>
+                        <outlet property="partTextField" destination="7bG-mm-tNf" id="VGb-Tx-pec"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sQC-Xi-Iai" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

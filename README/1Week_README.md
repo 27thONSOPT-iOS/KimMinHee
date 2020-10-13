@@ -1,13 +1,12 @@
 # 🐶 1주차 과제 도전
 
 ## 01 ) Present, Push, Pop 사용해보기
-  <img width="400" alt="View" src="https://user-images.githubusercontent.com/51286963/95858168-9e2e7680-0d97-11eb-8c68-a9ac7b4746cb.png">
+  <img width="600" alt="View" src="https://user-images.githubusercontent.com/51286963/95858168-9e2e7680-0d97-11eb-8c68-a9ac7b4746cb.png">
 
 1) MainViewController -> LoginViewController : Present
 2) LoginViewController -> MainViewController : Dismiss
 3) LoginViewController -> SignViewController : Navigation - Push
 4) SignViewController -> LoginViewController : Navigation - Pop
-<br>
 <br>
 
 ## 02 ) 💪🏻 도전 과제

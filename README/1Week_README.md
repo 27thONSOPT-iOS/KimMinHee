@@ -26,6 +26,9 @@
     ```
 
     : presentingViewController은 자신을 호출한 ViewController를 의미한다. 나를 호출한 뷰를 선언해주고 값을 전달한다.
+
+    
+    🔍  왜 instantiateViewControllerf를 사용하지 않았는지 궁금하다면?  [Click❗️](https://minnit-develop.tistory.com/8#comment15299902)
 <br>
 <br>
 

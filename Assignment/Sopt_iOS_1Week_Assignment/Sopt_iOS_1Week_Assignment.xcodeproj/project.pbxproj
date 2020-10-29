@@ -13,6 +13,7 @@
 		9B16128025345DAF00BE87A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B16127E25345DAF00BE87A3 /* Main.storyboard */; };
 		9B16128225345DB100BE87A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B16128125345DB100BE87A3 /* Assets.xcassets */; };
 		9B16128525345DB100BE87A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B16128325345DB100BE87A3 /* LaunchScreen.storyboard */; };
+		9B315DC8254B21C600616840 /* SoptWorkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B315DC7254B21C600616840 /* SoptWorkingViewController.swift */; };
 		9BF10EEC2535AC2E005B93FE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF10EEB2535AC2E005B93FE /* MainViewController.swift */; };
 		9BF10EEF2535AC36005B93FE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF10EEE2535AC36005B93FE /* LoginViewController.swift */; };
 		9BF10EF22535AC3C005B93FE /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF10EF12535AC3C005B93FE /* SignViewController.swift */; };
@@ -27,6 +28,7 @@
 		9B16128125345DB100BE87A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B16128425345DB100BE87A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B16128625345DB100BE87A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B315DC7254B21C600616840 /* SoptWorkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoptWorkingViewController.swift; sourceTree = "<group>"; };
 		9BF10EEB2535AC2E005B93FE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9BF10EEE2535AC36005B93FE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9BF10EF12535AC3C005B93FE /* SignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				9BF10EEB2535AC2E005B93FE /* MainViewController.swift */,
 				9BF10EEE2535AC36005B93FE /* LoginViewController.swift */,
 				9BF10EF12535AC3C005B93FE /* SignViewController.swift */,
+				9B315DC7254B21C600616840 /* SoptWorkingViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			files = (
 				9BF10EEF2535AC36005B93FE /* LoginViewController.swift in Sources */,
 				9BF10EEC2535AC2E005B93FE /* MainViewController.swift in Sources */,
+				9B315DC8254B21C600616840 /* SoptWorkingViewController.swift in Sources */,
 				9BF10EF22535AC3C005B93FE /* SignViewController.swift in Sources */,
 				9B16127925345DAF00BE87A3 /* AppDelegate.swift in Sources */,
 				9B16127B25345DAF00BE87A3 /* SceneDelegate.swift in Sources */,

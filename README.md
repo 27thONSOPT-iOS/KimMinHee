@@ -5,6 +5,7 @@
 ### A. Setting
 - [ Foldering ](./README/Foldering.md)<br>
 - ![Xcode](https://img.shields.io/badge/Xcode-12.0.1-blue)
+- [Xcode 테마 변경해보기](https://minnit-develop.tistory.com/10)
 
 ### B. Curriculum
 | <center>주차</center>  | <center>세미나</center>   | <center>과제</center>   |

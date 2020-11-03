@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9B08545F2549D05B00805993 /* Scroll.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B08545E2549D05B00805993 /* Scroll.storyboard */; };
+		9B0D0AC025513476000B78C2 /* Collection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0D0ABF25513476000B78C2 /* Collection.storyboard */; };
 		9B16127925345DAF00BE87A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B16127825345DAF00BE87A3 /* AppDelegate.swift */; };
 		9B16127B25345DAF00BE87A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B16127A25345DAF00BE87A3 /* SceneDelegate.swift */; };
 		9B16128025345DAF00BE87A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B16127E25345DAF00BE87A3 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		9B08545E2549D05B00805993 /* Scroll.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Scroll.storyboard; sourceTree = "<group>"; };
+		9B0D0ABF25513476000B78C2 /* Collection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Collection.storyboard; sourceTree = "<group>"; };
 		9B16127525345DAF00BE87A3 /* Sopt_iOS_Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sopt_iOS_Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B16127825345DAF00BE87A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B16127A25345DAF00BE87A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				9B16127E25345DAF00BE87A3 /* Main.storyboard */,
 				9B16128325345DB100BE87A3 /* LaunchScreen.storyboard */,
 				9B08545E2549D05B00805993 /* Scroll.storyboard */,
+				9B0D0ABF25513476000B78C2 /* Collection.storyboard */,
 			);
 			path = StoryBoard;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				9B16128225345DB100BE87A3 /* Assets.xcassets in Resources */,
 				9B16128025345DAF00BE87A3 /* Main.storyboard in Resources */,
 				9B08545F2549D05B00805993 /* Scroll.storyboard in Resources */,
+				9B0D0AC025513476000B78C2 /* Collection.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

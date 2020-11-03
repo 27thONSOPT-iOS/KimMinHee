@@ -15,6 +15,10 @@
 		9B16128225345DB100BE87A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B16128125345DB100BE87A3 /* Assets.xcassets */; };
 		9B16128525345DB100BE87A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B16128325345DB100BE87A3 /* LaunchScreen.storyboard */; };
 		9B315DC8254B21C600616840 /* SoptWorkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B315DC7254B21C600616840 /* SoptWorkingViewController.swift */; };
+		9B7C98922551A9D300D56156 /* CollectionTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C98912551A9D300D56156 /* CollectionTestVC.swift */; };
+		9B7C98952551AA1B00D56156 /* SoptWorkingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C98942551AA1B00D56156 /* SoptWorkingCell.swift */; };
+		9B7C98982551AC6300D56156 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C98972551AC6300D56156 /* Profile.swift */; };
+		9B7C989B2551B96200D56156 /* SoptCollectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C989A2551B96200D56156 /* SoptCollectionHeader.swift */; };
 		9BF10EEC2535AC2E005B93FE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF10EEB2535AC2E005B93FE /* MainViewController.swift */; };
 		9BF10EEF2535AC36005B93FE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF10EEE2535AC36005B93FE /* LoginViewController.swift */; };
 		9BF10EF22535AC3C005B93FE /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF10EF12535AC3C005B93FE /* SignViewController.swift */; };
@@ -31,6 +35,10 @@
 		9B16128425345DB100BE87A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B16128625345DB100BE87A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B315DC7254B21C600616840 /* SoptWorkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoptWorkingViewController.swift; sourceTree = "<group>"; };
+		9B7C98912551A9D300D56156 /* CollectionTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTestVC.swift; sourceTree = "<group>"; };
+		9B7C98942551AA1B00D56156 /* SoptWorkingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoptWorkingCell.swift; sourceTree = "<group>"; };
+		9B7C98972551AC6300D56156 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		9B7C989A2551B96200D56156 /* SoptCollectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoptCollectionHeader.swift; sourceTree = "<group>"; };
 		9BF10EEB2535AC2E005B93FE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9BF10EEE2535AC36005B93FE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9BF10EF12535AC3C005B93FE /* SignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +95,8 @@
 		9B16128E25345E4E00BE87A3 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				9B7C989E2551BFFA00D56156 /* Model */,
+				9B7C989D2551BFF000D56156 /* Cell */,
 				9B16129025345E8600BE87A3 /* ViewController */,
 			);
 			path = Source;
@@ -108,6 +118,8 @@
 				9BF10EEE2535AC36005B93FE /* LoginViewController.swift */,
 				9BF10EF12535AC3C005B93FE /* SignViewController.swift */,
 				9B315DC7254B21C600616840 /* SoptWorkingViewController.swift */,
+				9B7C98912551A9D300D56156 /* CollectionTestVC.swift */,
+				9B7C989A2551B96200D56156 /* SoptCollectionHeader.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -121,6 +133,22 @@
 				9B0D0ABF25513476000B78C2 /* Collection.storyboard */,
 			);
 			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		9B7C989D2551BFF000D56156 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9B7C98942551AA1B00D56156 /* SoptWorkingCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9B7C989E2551BFFA00D56156 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9B7C98972551AC6300D56156 /* Profile.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +227,12 @@
 				9BF10EEC2535AC2E005B93FE /* MainViewController.swift in Sources */,
 				9B315DC8254B21C600616840 /* SoptWorkingViewController.swift in Sources */,
 				9BF10EF22535AC3C005B93FE /* SignViewController.swift in Sources */,
+				9B7C98922551A9D300D56156 /* CollectionTestVC.swift in Sources */,
 				9B16127925345DAF00BE87A3 /* AppDelegate.swift in Sources */,
 				9B16127B25345DAF00BE87A3 /* SceneDelegate.swift in Sources */,
+				9B7C98982551AC6300D56156 /* Profile.swift in Sources */,
+				9B7C989B2551B96200D56156 /* SoptCollectionHeader.swift in Sources */,
+				9B7C98952551AA1B00D56156 /* SoptWorkingCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

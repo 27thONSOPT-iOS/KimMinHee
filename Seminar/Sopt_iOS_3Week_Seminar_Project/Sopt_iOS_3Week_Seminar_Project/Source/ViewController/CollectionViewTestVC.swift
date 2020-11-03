@@ -13,7 +13,7 @@ class CollectionViewTestVC: UIViewController {
     @IBOutlet weak var bannerCollectionView: UICollectionView!
     @IBOutlet weak var bannerPageControl: UIPageControl!
     
-    var banners: [String] = ["plan", "design","server","ios","android","web"]
+    var banners: [String] = ["plan", "design", "server", "ios", "android", "web"]
     override func viewDidLoad() {
         super.viewDidLoad()
         bannerCollectionView.dataSource = self

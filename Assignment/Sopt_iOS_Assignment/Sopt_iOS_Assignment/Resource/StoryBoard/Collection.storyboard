@@ -173,13 +173,13 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="soptCollectioView" destination="Nny-VD-3ql" id="jms-A5-VLa"/>
+                        <outlet property="soptCollectionView" destination="Nny-VD-3ql" id="jms-A5-VLa"/>
                         <outlet property="writeButton" destination="Lta-Ti-Ik3" id="iUd-N3-C9b"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uCm-H0-fff" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-292" y="45.812807881773402"/>
+            <point key="canvasLocation" x="-2207" y="-9"/>
         </scene>
     </scenes>
     <resources>

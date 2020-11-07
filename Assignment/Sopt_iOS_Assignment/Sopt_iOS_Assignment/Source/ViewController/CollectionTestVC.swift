@@ -9,15 +9,15 @@ import UIKit
 
 class CollectionTestVC: UIViewController {
     
-    @IBOutlet weak var soptCollectioView: UICollectionView!
+    @IBOutlet weak var soptCollectionView: UICollectionView!
     @IBOutlet weak var writeButton: UIButton!
     private var profileList: [Profile] = []
     override func viewDidLoad() {
         super.viewDidLoad()
         setProfile()
         writeButton.layer.cornerRadius = 8
-        soptCollectioView.dataSource = self
-        soptCollectioView.delegate = self
+        soptCollectionView.dataSource = self
+        soptCollectionView.delegate = self
         
         // Do any additional setup after loading the view.
     }
@@ -31,8 +31,6 @@ class CollectionTestVC: UIViewController {
         let profile7 = Profile(profileImageName: "WCB_SH", name: "류세화", tag: "#밈꿈나무 #지옥에서온민초단 #뇌절마스터")
         let profile8 = Profile(profileImageName: "WCB_BUDDY", name: "버디", tag: "#고구마성애자 #남자였음 #한창미운9살 #사람나이로63 #귀차니즘")
         profileList = [profile1,profile2,profile3,profile4,profile5,profile6,profile7,profile8]
-        
-        
     }
     
 }

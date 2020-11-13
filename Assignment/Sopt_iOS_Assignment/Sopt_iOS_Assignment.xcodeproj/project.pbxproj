@@ -14,6 +14,8 @@
 		9B16128025345DAF00BE87A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B16127E25345DAF00BE87A3 /* Main.storyboard */; };
 		9B16128225345DB100BE87A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B16128125345DB100BE87A3 /* Assets.xcassets */; };
 		9B16128525345DB100BE87A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B16128325345DB100BE87A3 /* LaunchScreen.storyboard */; };
+		9B22D15A255E5365009424B0 /* LoginTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B22D159255E5365009424B0 /* LoginTabBarController.swift */; };
+		9B22D15D255E53A7009424B0 /* TabLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B22D15C255E53A7009424B0 /* TabLoginVC.swift */; };
 		9B315DC8254B21C600616840 /* SoptWorkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B315DC7254B21C600616840 /* SoptWorkingViewController.swift */; };
 		9B7C98922551A9D300D56156 /* CollectionTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C98912551A9D300D56156 /* CollectionTestVC.swift */; };
 		9B7C98952551AA1B00D56156 /* SoptWorkingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C98942551AA1B00D56156 /* SoptWorkingCell.swift */; };
@@ -34,6 +36,8 @@
 		9B16128125345DB100BE87A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B16128425345DB100BE87A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B16128625345DB100BE87A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B22D159255E5365009424B0 /* LoginTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTabBarController.swift; sourceTree = "<group>"; };
+		9B22D15C255E53A7009424B0 /* TabLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabLoginVC.swift; sourceTree = "<group>"; };
 		9B315DC7254B21C600616840 /* SoptWorkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoptWorkingViewController.swift; sourceTree = "<group>"; };
 		9B7C98912551A9D300D56156 /* CollectionTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTestVC.swift; sourceTree = "<group>"; };
 		9B7C98942551AA1B00D56156 /* SoptWorkingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoptWorkingCell.swift; sourceTree = "<group>"; };
@@ -120,6 +124,8 @@
 				9B315DC7254B21C600616840 /* SoptWorkingViewController.swift */,
 				9B7C98912551A9D300D56156 /* CollectionTestVC.swift */,
 				9B7C989A2551B96200D56156 /* SoptCollectionHeader.swift */,
+				9B22D159255E5365009424B0 /* LoginTabBarController.swift */,
+				9B22D15C255E53A7009424B0 /* TabLoginVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -223,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B22D15D255E53A7009424B0 /* TabLoginVC.swift in Sources */,
 				9BF10EEF2535AC36005B93FE /* LoginViewController.swift in Sources */,
 				9BF10EEC2535AC2E005B93FE /* MainViewController.swift in Sources */,
 				9B315DC8254B21C600616840 /* SoptWorkingViewController.swift in Sources */,
+				9B22D15A255E5365009424B0 /* LoginTabBarController.swift in Sources */,
 				9BF10EF22535AC3C005B93FE /* SignViewController.swift in Sources */,
 				9B7C98922551A9D300D56156 /* CollectionTestVC.swift in Sources */,
 				9B16127925345DAF00BE87A3 /* AppDelegate.swift in Sources */,

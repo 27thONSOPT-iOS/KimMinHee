@@ -28,7 +28,7 @@
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lta-Ti-Ik3">
                                         <rect key="frame" x="228" y="44" width="132" height="32"/>
-                                        <color key="backgroundColor" red="0.98823529409999999" green="0.80392156859999997" blue="0.023529411760000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.99676889179999995" green="0.83753085140000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Lta-Ti-Ik3" secondAttribute="height" multiplier="132:32" id="pGO-g9-igb"/>
                                         </constraints>

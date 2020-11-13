@@ -22,7 +22,7 @@ extension LoginTabBarController {
         
         self.tabBar.tintColor = UIColor(red: 254/255, green: 214/255, blue: 0/255, alpha: 1)
         
-        guard let loginVC = self.storyboard?.instantiateViewController(identifier: "TabLoginVC") as? TabLoginVC else {
+        guard let loginVC = self.storyboard?.instantiateViewController(identifier: "MainViewController") as? MainViewController else {
             return
         }
         let collectionStoryboard = UIStoryboard.init(name: "Collection", bundle: nil)

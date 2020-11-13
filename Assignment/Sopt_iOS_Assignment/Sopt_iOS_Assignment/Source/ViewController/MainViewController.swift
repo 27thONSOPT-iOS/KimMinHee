@@ -34,7 +34,7 @@ class MainViewController: UIViewController {
     @IBAction func LoginButtonDidTap(_ sender: UIButton) {
         // "로그인 하러 가기" 버튼 클릭 시 event
         
-        guard let dvc = self.storyboard?.instantiateViewController(identifier: "NavigationControllerVC") else {
+        guard let dvc = self.storyboard?.instantiateViewController(identifier: "TabLoginVC") else {
             return
         }
         dvc.modalPresentationStyle = .fullScreen
@@ -46,7 +46,7 @@ class MainViewController: UIViewController {
 extension MainViewController {
     func setView() {
         // 기본 값 설정
-        self.partLabel.text = "iOS"
-        self.nameLabel.text = "김민희님 안녕하세요~~😉"
+        self.partLabel.text = "파트장"
+        self.nameLabel.text = "주혁님 안녕하세요~~😉"
     }
 }

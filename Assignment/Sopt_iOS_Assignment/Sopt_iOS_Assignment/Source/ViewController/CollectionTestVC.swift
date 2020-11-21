@@ -11,6 +11,9 @@ class CollectionTestVC: UIViewController {
     
     @IBOutlet weak var soptCollectionView: UICollectionView!
     @IBOutlet weak var writeButton: UIButton!
+    
+    @IBOutlet weak var headerView: UIView!
+    
     private var profileList: [Profile] = []
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -73,4 +76,9 @@ extension CollectionTestVC: UICollectionViewDelegateFlowLayout {
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
         return UIEdgeInsets(top: 41, left: 24, bottom: 0, right: 24) }
+}
+extension CollectionTestVC: UIScrollViewDelegate {
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        self.headerView.frame.origin.y = -100
+    }
 }

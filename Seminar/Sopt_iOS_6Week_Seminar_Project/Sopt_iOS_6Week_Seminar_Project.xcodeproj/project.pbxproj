@@ -20,6 +20,8 @@
 		9BCC59C22568CFD8004CD098 /* SignInData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC59C12568CFD8004CD098 /* SignInData.swift */; };
 		9BCC59C52568D01C004CD098 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC59C42568D01C004CD098 /* NetworkResult.swift */; };
 		9BCC59C82568D64A004CD098 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC59C72568D64A004CD098 /* AuthService.swift */; };
+		9BE1939B256F9F7B00BD8D9D /* SignVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE1939A256F9F7B00BD8D9D /* SignVC.swift */; };
+		9BE1939E256FA3C300BD8D9D /* SignUpData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE1939D256FA3C300BD8D9D /* SignUpData.swift */; };
 		CF0B16A46E7076A1518A8361 /* Pods_Sopt_iOS_6Week_Seminar_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA655A2E3548E815DBD9FD1F /* Pods_Sopt_iOS_6Week_Seminar_Project.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +42,8 @@
 		9BCC59C12568CFD8004CD098 /* SignInData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInData.swift; sourceTree = "<group>"; };
 		9BCC59C42568D01C004CD098 /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
 		9BCC59C72568D64A004CD098 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		9BE1939A256F9F7B00BD8D9D /* SignVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignVC.swift; sourceTree = "<group>"; };
+		9BE1939D256FA3C300BD8D9D /* SignUpData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpData.swift; sourceTree = "<group>"; };
 		D897312DE4937AACCE2DD88F /* Pods-Sopt_iOS_6Week_Seminar_Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sopt_iOS_6Week_Seminar_Project.debug.xcconfig"; path = "Target Support Files/Pods-Sopt_iOS_6Week_Seminar_Project/Pods-Sopt_iOS_6Week_Seminar_Project.debug.xcconfig"; sourceTree = "<group>"; };
 		FA655A2E3548E815DBD9FD1F /* Pods_Sopt_iOS_6Week_Seminar_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sopt_iOS_6Week_Seminar_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -86,22 +90,72 @@
 		9BCC599B2568C88E004CD098 /* Sopt_iOS_6Week_Seminar_Project */ = {
 			isa = PBXGroup;
 			children = (
+				9BE193A12570165000BD8D9D /* Resource */,
+				9BE193A02570164B00BD8D9D /* Source */,
 				9BCC599C2568C88E004CD098 /* AppDelegate.swift */,
 				9BCC599E2568C88E004CD098 /* SceneDelegate.swift */,
-				9BCC59A02568C88E004CD098 /* ViewController.swift */,
-				9BCC59A22568C88E004CD098 /* Main.storyboard */,
-				9BCC59A52568C890004CD098 /* Assets.xcassets */,
-				9BCC59A72568C890004CD098 /* LaunchScreen.storyboard */,
 				9BCC59AA2568C890004CD098 /* Info.plist */,
-				9BCC59B52568CB1B004CD098 /* Login.storyboard */,
-				9BCC59B82568CB8C004CD098 /* LoginVC.swift */,
-				9BCC59BB2568CDAC004CD098 /* APIConstants.swift */,
+			);
+			path = Sopt_iOS_6Week_Seminar_Project;
+			sourceTree = "<group>";
+		};
+		9BE193A02570164B00BD8D9D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9BE193A42570167000BD8D9D /* ViewController */,
+				9BE193A32570166900BD8D9D /* Service */,
+				9BE193A22570166300BD8D9D /* Model */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		9BE193A12570165000BD8D9D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9BCC59A52568C890004CD098 /* Assets.xcassets */,
+				9BE193A52570167A00BD8D9D /* Storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		9BE193A22570166300BD8D9D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9BE1939D256FA3C300BD8D9D /* SignUpData.swift */,
 				9BCC59BE2568CE68004CD098 /* GenericResponse.swift */,
 				9BCC59C12568CFD8004CD098 /* SignInData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9BE193A32570166900BD8D9D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				9BCC59BB2568CDAC004CD098 /* APIConstants.swift */,
 				9BCC59C42568D01C004CD098 /* NetworkResult.swift */,
 				9BCC59C72568D64A004CD098 /* AuthService.swift */,
 			);
-			path = Sopt_iOS_6Week_Seminar_Project;
+			path = Service;
+			sourceTree = "<group>";
+		};
+		9BE193A42570167000BD8D9D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9BCC59A02568C88E004CD098 /* ViewController.swift */,
+				9BCC59B82568CB8C004CD098 /* LoginVC.swift */,
+				9BE1939A256F9F7B00BD8D9D /* SignVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9BE193A52570167A00BD8D9D /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				9BCC59A72568C890004CD098 /* LaunchScreen.storyboard */,
+				9BCC59B52568CB1B004CD098 /* Login.storyboard */,
+				9BCC59A22568C88E004CD098 /* Main.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 		EE6856EF726100FF6D8EAA30 /* Frameworks */ = {
@@ -236,6 +290,8 @@
 				9BCC599D2568C88E004CD098 /* AppDelegate.swift in Sources */,
 				9BCC59B92568CB8C004CD098 /* LoginVC.swift in Sources */,
 				9BCC599F2568C88E004CD098 /* SceneDelegate.swift in Sources */,
+				9BE1939E256FA3C300BD8D9D /* SignUpData.swift in Sources */,
+				9BE1939B256F9F7B00BD8D9D /* SignVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
